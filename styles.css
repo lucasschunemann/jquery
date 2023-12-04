@@ -10,34 +10,30 @@ body {
     height: 100vh;
   }
   
-  h1 {
-    color: #333;
-  }
-  
   form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   label {
     margin-bottom: 8px;
-    color: #555;
+    display: block;
+    font-weight: bold;
   }
   
   input {
+    width: 100%;
     padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
   }
   
   button {
-    padding: 8px 16px;
-    font-size: 14px;
-    background-color: #b4792b;
+    padding: 10px;
+    background-color: #4caf50;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -46,27 +42,6 @@ body {
   }
   
   button:hover {
-    background-color: #925f1c;
-  }
-  
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    padding: 8px;
-    font-size: 16px;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  li:hover {
-    background-color: #f5f5f5;
-  }
-  
-  .completed {
-    text-decoration: line-through;
+    background-color: #45a049;
   }
   
